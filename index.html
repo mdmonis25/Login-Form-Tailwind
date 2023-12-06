@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+        <!-- Container -->
+        <div class="bg-amber-200 flex rounded-xl shadow-lg max-w-3xl p-5">
+            <!-- form -->
+            <div class="sm:w-1/2 px-8">
+                <h2 class="font-bold text-2xl text-[#322019]">Login</h2>
+                <p class="text-sm mt-4 text-[#322019]">Already have an account ? <a href="">Register</a></p>
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-8 rounded-xl border" type="email" placeholder="Email">
+                    <div>
+                        <input class="p-2 rounded-xl border w-full" type="password" placeholder="Password">
+                    </div>
+                    <button class="bg-[#322019] text-white rounded-xl px-2 py-2">Login</button>
+                </form>
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-500">
+                    <hr class="border-gray-500">
+                        <p class="text-center">OR</p>
+                    <hr class="border-gray-500">
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="w-1/2 sm:block hidden">
+                <img class="rounded-xl" src="login.jpg" alt="Login">
+            </div>
+        </div>
+    </section>
+<body>
+</body>
+</html>
